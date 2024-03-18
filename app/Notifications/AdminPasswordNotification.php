@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 
-class UpdateEmailNotification extends Notification
+class AdminPasswordNotification extends Notification
 {
     use Queueable;
     public $token;
